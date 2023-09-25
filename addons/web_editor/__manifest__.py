@@ -108,6 +108,10 @@ Odoo Web Editor widget.
             'web_editor/static/src/js/wysiwyg/dialog.js',
             'web_editor/static/src/js/frontend/loader.js',
         ],
+        'web.report_assets_common': [
+            ('include', 'web._assets_helpers'),
+            'web_editor/static/src/scss/web_editor.common.scss',
+        ],
 
         #----------------------------------------------------------------------
         # SUB BUNDLES
@@ -125,6 +129,9 @@ Odoo Web Editor widget.
         ],
         'web._assets_frontend_helpers': [
             ('prepend', 'web_editor/static/src/scss/bootstrap_overridden.scss'),
+        ],
+        'web._assets_helpers': [
+            'web_editor/static/src/scss/bootstrap_overridden.scss',
         ],
 
         # ----------------------------------------------------------------------
