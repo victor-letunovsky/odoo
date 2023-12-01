@@ -28,7 +28,7 @@ num2words==0.5.9
 ofxparse==0.19; python_version <= '3.9'
 ofxparse==0.21; python_version > '3.9'  # (Jammy)
 passlib==1.7.4 # min version = 1.7.2 (Focal with security backports)
-Pillow==9.0.1 ; python_version <= '3.10'  # min version = 7.0.0 (Focal with security backports)
+Pillow==9.1.1 ; python_version <= '3.10'  # min version = 7.0.0 (Focal with security backports)
 Pillow==9.4.0 ; python_version > '3.10'
 polib==1.1.0
 psutil==5.8.0 ; python_version <= '3.10' 
